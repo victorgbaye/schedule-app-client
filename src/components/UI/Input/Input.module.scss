@@ -1,0 +1,97 @@
+@import '../../../styles/variables';
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+
+    label {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: $color-grey-darkest-grey;
+        text-transform: capitalize;
+    }
+
+    .InputWrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        // height: 45px;
+
+        input {
+            border: 1px solid #F8F8F8;
+            outline: none;
+            background: #F8F8F8;
+            mix-blend-mode: normal;
+            border-radius: 8px;
+            // border-top-left-radius: 5px;
+            // border-bottom-left-radius: 5px;
+            height: 100%;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: $color-grey-darkest-grey;
+            width: 100%;
+            padding: 13px 16px;
+            // border: 1px solid $color-grey-light-grey;
+            // border-right: none;
+        }
+
+        span {
+            background: transparent;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 18.17px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            cursor: pointer;
+            border: 1px solid $color-grey-light-grey;
+            border-left: none;
+        }
+    }
+}
+
+.withoutAdornment {
+    input {
+        border-radius: 5px;
+        border-right: 1px solid red;
+        color: red;
+    }
+}
+
+.VerificationInputContainer {
+    height: 54px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.VerificationInputChar {
+    line-height: 48px;
+    width: 54px;
+    background: transparent;
+    border: 1px solid $color-grey-darker-grey;
+    margin-left: 14px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 22px;
+    color: $color-grey-darkest-grey;
+}
+
+.VerificationInputChar:first-child {
+    margin-left: 0;
+}
+
+.CharInactive {
+
+    background: transparent;
+}
+
+.CharSelected {
+    border: 1px solid $color-primary;
+    ;
+}

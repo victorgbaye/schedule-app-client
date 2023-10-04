@@ -1,0 +1,40 @@
+
+
+.LoginContainer{
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.LoginHeaderWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 101px;
+    margin-top: 82px;
+    margin-bottom: 72px;
+
+}
+.LoginLogo{
+    color: #000;
+    font-family: Inter;
+    font-size: 80.346px;
+    font-style: normal;
+    font-weight: 800;
+    // line-height: 0px; /* 0% */
+}
+.LoginHeaderText{
+    color: #000;
+    /* H2 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.LoginInputWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.LoginButtonWrapper{
+   margin-top: 32px;
+}
