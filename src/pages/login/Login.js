@@ -26,6 +26,7 @@ const Login = () => {
       <div className={styles.LoginButtonWrapper}>
       <Button
       type="button"
+  
       >
         Continue
         </Button>

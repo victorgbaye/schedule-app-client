@@ -1,0 +1,115 @@
+/* Sidebar.css */
+.sidebarContainer {
+    font-family: 'Inter', sans-serif;    
+    width: 240px;
+    height: 100vh;
+    background-color: #F7F7F7;
+    color: #1E1E1E;
+    font-family: 'Inter';
+    border-right: 1px solid #E3E3E3;
+    // padding: 24px 20px;
+  }
+// .sidebarHeader{
+//     padding: 10px 20px;
+//     // margin-bottom: 60px;
+// }
+  
+  // .sidebarItemContainer {
+  //   display: flex;
+  //   flex-direction: column;
+  //   // gap: 20px;
+  //   list-style-type: none;
+  //   padding: 0;
+  //   // margin-left: 20px;
+  //   // margin-right: 20px;
+  // }
+  
+  // .sidebarItemContainer li {
+  //   display: flex;
+  //   gap: 16px;
+  //   padding: 16px;
+  //   // padding-top: 20;
+  //   // padding-bottom: 20px;
+  //   cursor: pointer;
+  //   border-radius: 8px;
+  // }
+  
+  // .sidebarItemContainer li:hover {
+  //   background-color: #555;
+  // }
+//   li:active{
+//     color: #7C2C89;
+//   }
+
+.sidebarHeader{
+  margin-left: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  
+}
+
+.sidebarList{
+  height: auto;
+  width: 100%;
+  padding: 0;
+  // background-color: red;
+  .sidebarItem{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    height: 44px;
+    // border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    
+
+  }
+}
+.sidebarFooter{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: 24px;
+  position: absolute;
+  bottom: 0;
+}
+.sidebarList #active{
+  background: #FCECFF;
+}
+
+
+.sidebarFooterLogout{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 0 16px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+.sidebarFooterUserSec{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 12px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
